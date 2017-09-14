@@ -1,0 +1,72 @@
+/* ----- css for styling fonts and texts ----- */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.col-md-12 .font-300 {
+  color: #7d97ad;
+}
+
+.desc {
+  text-shadow: 0 2px 10px #fff;
+}
+/* ----- end of css for styling fonts and texts ----- */
+
+
+/* ----- css for setting position ----- */
+.self-alignment {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.self-margin {
+  margin: 20px 0;
+}
+
+article img {
+  margin: auto;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.self-size {
+  font-size: 0.8em;
+}
+/* ----- end of css for setting position ----- */
+
+
+/* ----- css for styling image ----- */
+.portrait {
+  width: 120px;
+  height: 140px;
+}
+
+.banner {
+  margin: 5px 0;
+  border-radius: 15px;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-sample {
+  object-fit: contain;
+  height: 200px;
+}
+/* ----- end of css for styling image ----- */
+
+.tag-line {
+  margin-bottom: 50px;
+  color: #fff;
+}
